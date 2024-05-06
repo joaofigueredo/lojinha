@@ -1,13 +1,23 @@
-## Loja
+# Loja
 
 Um pequeno projeto de uma loja de proutos geek.
--CRUD para produtos
--CRUD para categorias, com relação com produtos
--CRUD de cupons de desconto
--Adicionar e remover produtos do carrinho
--Podemos ver as compras concluidas e canceladas
+
 -Sistema de login
+
 -Sistema de autenticação simples para diferenciar cliente e administrador
+
+-CRUD para produtos, um produto tem uma categoria
+
+-CRUD para categorias, uma categoria tem vários produtos
+
+-Adicionar e remover produtos do carrinho
+
+-CRUD de cupons de desconto
+
+-Podemos ver as compras concluidas e canceladas
+
 -Pesquisar produtos por nome
+
 -Requests personalizados para mostrar erros ao criar produto ou categoria
--Utilizei @guest e @auth para diferenciar o que um usuário não logado e logado podem ver
+
+Fiz o projeto utilizando laravel, bootstrap, css, javascript, jquery, blade e postgresql.
