@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+
+.extremos{
+    height: 40px;
+}
+
+.conteudo{
+    min-height: calc(100vh - 128px); /* Leva em consideração a altura do cabeçalho e do rodapé */
+     /* Leva em consideração a altura do rodapé */
+    overflow: auto; /* Permite a rolagem do conteúdo caso exceda o tamanho da tela */
+}
+
+.produto {
+    width: 30%; /* Ajuste a largura conforme necessário */
+    float: left;
+    margin-right: 2%; /* Espaço entre as divs */
+    margin-bottom: 20px; /* Espaço abaixo das divs */
+}
